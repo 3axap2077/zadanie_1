@@ -650,7 +650,6 @@ https://templatemo.com/tm-590-topic-listing
                 </div>
             </section>
         </main>
-
         <?php
             include 'parts/footer.php';
         ?>

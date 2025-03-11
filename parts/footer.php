@@ -23,7 +23,6 @@
     <!--
 
     TemplateMo 590 topic listing
-
     https://templatemo.com/tm-590-topic-listing
 
     -->

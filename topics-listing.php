@@ -241,10 +241,8 @@ https://templatemo.com/tm-590-topic-listing
         </main>
 
         <?php
-
         include 'parts/footer.php';
         ?>
-
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
