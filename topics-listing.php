@@ -243,7 +243,6 @@ https://templatemo.com/tm-590-topic-listing
         <?php
 
         include 'parts/footer.php';
-
         ?>
 
         <!-- JAVASCRIPT FILES -->

@@ -123,9 +123,7 @@ https://templatemo.com/tm-590-topic-listing
         </main>
 
         <?php
-
         include 'parts/footer.php';
-
         ?>
 
         <!-- JAVASCRIPT FILES -->

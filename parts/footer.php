@@ -8,7 +8,6 @@
     <meta name="author" content="">
 
     <title>Topic Listing Bootstrap 5 Template</title>
-
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
