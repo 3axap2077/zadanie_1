@@ -34,60 +34,9 @@ https://templatemo.com/tm-590-topic-listing
 
         <main>
 
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">
-                        <i class="bi-back"></i>
-                        <span>Topic</span>
-                    </a>
-
-                    <div class="d-lg-none ms-auto me-4">
-                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
-                    </div>
-    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-    
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_2">Browse Topics</a>
-                            </li>
-    
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_3">How it works</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_4">FAQs</a>
-                            </li>
-    
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_5">Contact</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-
-                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                    <li><a class="dropdown-item active" href="topics-listing.html">Topics Listing</a></li>
-
-                                    <li><a class="dropdown-item" href="contact.html">Contact Form</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                        <div class="d-none d-lg-block">
-                            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+            <?php
+            include 'parts/header.php';
+            ?>
 
 
             <header class="site-header d-flex flex-column justify-content-center align-items-center">
@@ -97,7 +46,7 @@ https://templatemo.com/tm-590-topic-listing
                         <div class="col-lg-5 col-12">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
+                                    <li class="breadcrumb-item"><a href="index.php">Homepage</a></li>
 
                                     <li class="breadcrumb-item active" aria-current="page">Topics Listing</li>
                                 </ol>
@@ -130,7 +79,7 @@ https://templatemo.com/tm-590-topic-listing
 
                                             <p class="mb-0">Topic Listing includes home, listing, detail and contact pages. Feel free to modify this template for your custom websites.</p>
 
-                                            <a href="topics-detail.html" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
+                                            <a href="topics-detail.php" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
                                         </div>
 
                                         <span class="badge bg-design rounded-pill ms-auto">14</span>
@@ -148,7 +97,7 @@ https://templatemo.com/tm-590-topic-listing
 
                                             <p class="mb-0">Visit TemplateMo website to download free CSS templates. Lorem ipsum dolor, sit amet consectetur adipisicing elit animi necessitatibus</p>
 
-                                            <a href="topics-detail.html" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
+                                            <a href="topics-detail.php" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
                                         </div>
 
                                         <span class="badge bg-advertising rounded-pill ms-auto">30</span>
@@ -166,7 +115,7 @@ https://templatemo.com/tm-590-topic-listing
 
                                             <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit animi necessitatibus</p>
 
-                                            <a href="topics-detail.html" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
+                                            <a href="topics-detail.php" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
                                         </div>
 
                                         <span class="badge bg-music rounded-pill ms-auto">20</span>
@@ -228,7 +177,7 @@ https://templatemo.com/tm-590-topic-listing
 
                         <div class="col-lg-6 col-md-6 col-12 mt-3 mb-4 mb-lg-0">
                             <div class="custom-block bg-white shadow-lg">
-                                <a href="topics-detail.html">
+                                <a href="topics-detail.php">
                                     <div class="d-flex">
                                         <div>
                                             <h5 class="mb-2">Investment</h5>
@@ -255,7 +204,7 @@ https://templatemo.com/tm-590-topic-listing
 
                                             <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis</p>
 
-                                            <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
+                                            <a href="topics-detail.php" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
                                         </div>
 
                                         <span class="badge bg-finance rounded-pill ms-auto">25</span>
@@ -291,77 +240,11 @@ https://templatemo.com/tm-590-topic-listing
             </section>
         </main>
 
-		<footer class="site-footer section-padding">
-            <div class="container">
-                <div class="row">
+        <?php
 
-                    <div class="col-lg-3 col-12 mb-4 pb-2">
-                        <a class="navbar-brand mb-2" href="index.html">
-                            <i class="bi-back"></i>
-                            <span>Topic</span>
-                        </a>
-                    </div>
+        include 'parts/footer.php';
 
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <h6 class="site-footer-title mb-3">Resources</h6>
-
-                        <ul class="site-footer-links">
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Home</a>
-                            </li>
-
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">How it works</a>
-                            </li>
-
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">FAQs</a>
-                            </li>
-
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
-                        <h6 class="site-footer-title mb-3">Information</h6>
-
-                        <p class="text-white d-flex mb-1">
-                            <a href="tel: 305-240-9671" class="site-footer-link">
-                                305-240-9671
-                            </a>
-                        </p>
-
-                        <p class="text-white d-flex">
-                            <a href="mailto:info@company.com" class="site-footer-link">
-                                info@company.com
-                            </a>
-                        </p>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            English</button>
-
-                            <ul class="dropdown-menu">
-                                <li><button class="dropdown-item" type="button">Thai</button></li>
-
-                                <li><button class="dropdown-item" type="button">Myanmar</button></li>
-
-                                <li><button class="dropdown-item" type="button">Arabic</button></li>
-                            </ul>
-                        </div>
-
-                        <p class="copyright-text mt-lg-5 mt-4">Copyright © 2048 Topic Listing Center. All rights reserved.
-                        <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
-                        
-                    </div>
-
-                </div>
-            </div>
-        </footer>
+        ?>
 
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
